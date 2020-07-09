@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var swooshlogo: UIImageView!
+    @IBOutlet weak var bgimg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        "git remote add origin  https://USERNAME:PASSWORD@github.com/username/reponame.git"
-        "git remote add origin https://abdelrahman-M-abdelfatah:Abdopop01122367668pp1@github.com/abdelrahman-M-abdelfatah/app_swooch.git"
+        swooshlogo.frame = CGRect(x: view.frame.size.width/2 - swooshlogo.frame.size.width/2, y: 50, width: swooshlogo.frame.size.width, height: swooshlogo.frame.size.height)
+        bgimg.frame = view.frame
+     
     }
 
 
