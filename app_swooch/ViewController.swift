@@ -14,9 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var bgimg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+ 
      
     }
+    @IBAction func  unwindfromskillvc (unwindSegue: UIStoryboardSegue ){
+            
+        }
 
 
 }
