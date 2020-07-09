@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8413380424B6A0AD00A420BD /* buttonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413380324B6A0AD00A420BD /* buttonBorder.swift */; };
 		846A25D224B27D3D00C79FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25D124B27D3D00C79FD9 /* AppDelegate.swift */; };
 		846A25D424B27D3D00C79FD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25D324B27D3D00C79FD9 /* SceneDelegate.swift */; };
 		846A25D624B27D3D00C79FD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25D524B27D3D00C79FD9 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8413380324B6A0AD00A420BD /* buttonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonBorder.swift; sourceTree = "<group>"; };
 		846A25CE24B27D3D00C79FD9 /* app_swooch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_swooch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A25D124B27D3D00C79FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846A25D324B27D3D00C79FD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,9 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8413380224B6A05900A420BD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8413380324B6A0AD00A420BD /* buttonBorder.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		846A25C524B27D3D00C79FD9 = {
 			isa = PBXGroup;
 			children = (
+				8413380224B6A05900A420BD /* views */,
 				846A25D024B27D3D00C79FD9 /* app_swooch */,
 				846A25E724B27D4200C79FD9 /* app_swoochTests */,
 				846A25F224B27D4200C79FD9 /* app_swoochUITests */,
@@ -262,6 +273,7 @@
 				846A25D624B27D3D00C79FD9 /* ViewController.swift in Sources */,
 				846A25D224B27D3D00C79FD9 /* AppDelegate.swift in Sources */,
 				846A25D424B27D3D00C79FD9 /* SceneDelegate.swift in Sources */,
+				8413380424B6A0AD00A420BD /* buttonBorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
