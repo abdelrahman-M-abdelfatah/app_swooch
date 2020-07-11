@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swooch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="welcomVC" customModule="app_swooch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,19 +72,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="bgimg" destination="yWi-jc-aIR" id="h5r-5w-2Gp"/>
-                        <outlet property="swooshlogo" destination="WP4-xt-R4m" id="ldj-z6-96v"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="136.60714285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--LeaguVC-->
         <scene sceneID="bM4-ab-eNL">
             <objects>
-                <viewController id="Fsn-7a-Ep0" sceneMemberID="viewController">
+                <viewController id="Fsn-7a-Ep0" customClass="leaguVC" customModule="app_swooch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="psz-bh-Dtn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -197,10 +193,10 @@
             </objects>
             <point key="canvasLocation" x="880" y="137"/>
         </scene>
-        <!--View Controller-->
+        <!--TypeVC-->
         <scene sceneID="79V-4m-uHA">
             <objects>
-                <viewController id="Kqh-2O-Vqd" sceneMemberID="viewController">
+                <viewController id="Kqh-2O-Vqd" customClass="typeVC" customModule="app_swooch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8nW-6C-Oy8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

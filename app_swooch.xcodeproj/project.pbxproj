@@ -10,12 +10,14 @@
 		8413380424B6A0AD00A420BD /* buttonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413380324B6A0AD00A420BD /* buttonBorder.swift */; };
 		846A25D224B27D3D00C79FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25D124B27D3D00C79FD9 /* AppDelegate.swift */; };
 		846A25D424B27D3D00C79FD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25D324B27D3D00C79FD9 /* SceneDelegate.swift */; };
-		846A25D624B27D3D00C79FD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25D524B27D3D00C79FD9 /* ViewController.swift */; };
+		846A25D624B27D3D00C79FD9 /* welcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25D524B27D3D00C79FD9 /* welcomeVC.swift */; };
 		846A25D924B27D3D00C79FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846A25D724B27D3D00C79FD9 /* Main.storyboard */; };
 		846A25DB24B27D4200C79FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846A25DA24B27D4200C79FD9 /* Assets.xcassets */; };
 		846A25DE24B27D4200C79FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846A25DC24B27D4200C79FD9 /* LaunchScreen.storyboard */; };
 		846A25E924B27D4200C79FD9 /* app_swoochTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25E824B27D4200C79FD9 /* app_swoochTests.swift */; };
 		846A25F424B27D4200C79FD9 /* app_swoochUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A25F324B27D4200C79FD9 /* app_swoochUITests.swift */; };
+		8492C05B24B7D74900793523 /* leaguVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492C05A24B7D74900793523 /* leaguVC.swift */; };
+		8492C05D24B7D76200793523 /* typeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492C05C24B7D76200793523 /* typeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		846A25CE24B27D3D00C79FD9 /* app_swooch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_swooch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A25D124B27D3D00C79FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846A25D324B27D3D00C79FD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		846A25D524B27D3D00C79FD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846A25D524B27D3D00C79FD9 /* welcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeVC.swift; sourceTree = "<group>"; };
 		846A25D824B27D3D00C79FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846A25DA24B27D4200C79FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846A25DD24B27D4200C79FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		846A25EF24B27D4200C79FD9 /* app_swoochUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app_swoochUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A25F324B27D4200C79FD9 /* app_swoochUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_swoochUITests.swift; sourceTree = "<group>"; };
 		846A25F524B27D4200C79FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8492C05A24B7D74900793523 /* leaguVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaguVC.swift; sourceTree = "<group>"; };
+		8492C05C24B7D76200793523 /* typeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +114,11 @@
 		846A25D024B27D3D00C79FD9 /* app_swooch */ = {
 			isa = PBXGroup;
 			children = (
+				8492C05924B7D5C700793523 /* model */,
+				8492C05824B7D5B200793523 /* controler */,
+				8492C05724B7D59E00793523 /* view */,
 				846A25D124B27D3D00C79FD9 /* AppDelegate.swift */,
 				846A25D324B27D3D00C79FD9 /* SceneDelegate.swift */,
-				846A25D524B27D3D00C79FD9 /* ViewController.swift */,
 				846A25D724B27D3D00C79FD9 /* Main.storyboard */,
 				846A25DA24B27D4200C79FD9 /* Assets.xcassets */,
 				846A25DC24B27D4200C79FD9 /* LaunchScreen.storyboard */,
@@ -137,6 +143,30 @@
 				846A25F524B27D4200C79FD9 /* Info.plist */,
 			);
 			path = app_swoochUITests;
+			sourceTree = "<group>";
+		};
+		8492C05724B7D59E00793523 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8492C05824B7D5B200793523 /* controler */ = {
+			isa = PBXGroup;
+			children = (
+				846A25D524B27D3D00C79FD9 /* welcomeVC.swift */,
+				8492C05A24B7D74900793523 /* leaguVC.swift */,
+				8492C05C24B7D76200793523 /* typeVC.swift */,
+			);
+			path = controler;
+			sourceTree = "<group>";
+		};
+		8492C05924B7D5C700793523 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846A25D624B27D3D00C79FD9 /* ViewController.swift in Sources */,
+				846A25D624B27D3D00C79FD9 /* welcomeVC.swift in Sources */,
 				846A25D224B27D3D00C79FD9 /* AppDelegate.swift in Sources */,
+				8492C05D24B7D76200793523 /* typeVC.swift in Sources */,
 				846A25D424B27D3D00C79FD9 /* SceneDelegate.swift in Sources */,
+				8492C05B24B7D74900793523 /* leaguVC.swift in Sources */,
 				8413380424B6A0AD00A420BD /* buttonBorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
